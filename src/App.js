@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import EmailSignin from "./EmailSignin";
+import PhoneSignIn from "./PhoneSignIn";
+import Reset from "./Reset";
+
+import Signin from "./Signin";
+
+
 
 function App() {
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+     <PhoneSignIn/>
+     <EmailSignin/>
+     <Signin/>
+     <Reset/>
     </div>
   );
 }
-
 export default App;
+
+

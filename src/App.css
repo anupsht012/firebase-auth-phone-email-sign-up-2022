@@ -36,3 +36,68 @@
     transform: rotate(360deg);
   }
 }
+
+.phone-sign-in {
+  display: flex;
+  justify-content: center;
+  /* background-color: gray;  */
+  height: 20vh;
+}
+.phone {
+  /* background-color: #61dafb; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* email sign-in */
+.email-sign-in{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.email{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+border: 1px solid gray;
+padding: 10px;
+margin-bottom: 20px;
+}
+button{
+  margin-bottom: 40px;
+}
+
+
+
+/* google-sign-in */
+
+.google-sign-in{
+display: flex;
+justify-content: center;
+}
+
+.google{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.reset-password{
+  display: flex;
+  justify-content: center;
+}
+
+.reset{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.text {
+  font-weight: bold;
+}
